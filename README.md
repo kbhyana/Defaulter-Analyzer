@@ -30,7 +30,7 @@ t-SNE is a technique for dimensionality reduction that is particularly well suit
 
 ![alt text][logo]
 
-[logo]: https://github.com/kbhyana/Defaulter-Analyzer/blob/master/Pictures/4.JPG?raw=true " "
+[logo](https://github.com/kbhyana/Defaulter-Analyzer/blob/master/Pictures/4.JPG?raw=true)
 
 
 The visual reveals a rather mixed up dataset which means that we shall not expect to end up with an extremely accurate model. We shall also expect that our neural network will learn fairly fast due to the fact that the dataset looks balanced; there is a considerable amount of observed defaults in our dataset
