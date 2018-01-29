@@ -10,31 +10,27 @@ Exploring the Data
 Create and train the Neural Network
 The achieved prediction accuracy is 82%
 
-### Markdown
-import warnings
-warnings.filterwarnings("ignore")
 
-import pandas as pd
-import numpy as np 
-import tensorflow as tf
-import sklearn as skl
-from sklearn.cross_validation import train_test_split
-import matplotlib.pyplot as plt
-from sklearn.utils import shuffle
-from sklearn.metrics import confusion_matrix
-import seaborn as sns
-import matplotlib.gridspec as gridspec
-from sklearn.preprocessing import StandardScaler
-from sklearn.manifold import TSNE
+![alt text][logo]
+
+[logo]: https://github.com/kbhyana/Defaulter-Analyzer/blob/master/Pictures/1.JPG?raw=true " "
 
 # Visualizing the Data with t-SNE
 
 t-SNE is a technique for dimensionality reduction that is particularly well suited for the visualisation of high-dimensional datasets. The technique has become widespread in the field of machine learning, since it gives the opportunity for a compelling two-dimensional “map” of a dataset. In our case we are looking for a qualitative first look on that map that will set some expectations for the prediction accuracy that we are targeting. In simple words, if our dataset 'looks' mixed, i.e. with many overlaps, we will not be disappointed if our neural network achieves an accuracy of 60-70%. Let's see!
+ 
 
-Reference-style: 
 ![alt text][logo]
 
-[logo]: https://github.com/kbhyana/Defaulter-Analyzer/blob/master/Pictures/1.JPG?raw=true " "
+[logo]: https://github.com/kbhyana/Defaulter-Analyzer/blob/master/Pictures/2.JPG?raw=true " "
+
+![alt text][logo]
+
+[logo]: https://github.com/kbhyana/Defaulter-Analyzer/blob/master/Pictures/3.JPG?raw=true " "
+
+![alt text][logo]
+
+[logo]: https://github.com/kbhyana/Defaulter-Analyzer/blob/master/Pictures/4.JPG?raw=true " "
 
 
 
