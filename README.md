@@ -1,17 +1,45 @@
-## Welcome to GitHub Pages
+## Welcome to Defaulter-Analyzer
+The goal for this analysis is to predict credit card default based on transactional data. We will be using Tensorflow to build the predictive model, and t-SNE to visualize the dataset in two dimensions.
 
-You can use the [editor on GitHub](https://github.com/kbhyana/Defaulter-Analyzer/edit/gh-pages/README.md) to maintain and preview the content for your website in Markdown files.
+Dataset: Default of Credit Card Clients Dataset link: https://www.kaggle.com/uciml/default-of-credit-card-clients-dataset
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The sections of this analysis include:
+
+Visualizing the Data with t-SNE.
+Exploring the Data
+Create and train the Neural Network
+The achieved prediction accuracy is 82%
 
 ### Markdown
+import warnings
+warnings.filterwarnings("ignore")
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+import pandas as pd
+import numpy as np 
+import tensorflow as tf
+import sklearn as skl
+from sklearn.cross_validation import train_test_split
+import matplotlib.pyplot as plt
+from sklearn.utils import shuffle
+from sklearn.metrics import confusion_matrix
+import seaborn as sns
+import matplotlib.gridspec as gridspec
+from sklearn.preprocessing import StandardScaler
+from sklearn.manifold import TSNE
 
-```markdown
-Syntax highlighted code block
+# Visualizing the Data with t-SNE
 
-# Header 1
+t-SNE is a technique for dimensionality reduction that is particularly well suited for the visualisation of high-dimensional datasets. The technique has become widespread in the field of machine learning, since it gives the opportunity for a compelling two-dimensional “map” of a dataset. In our case we are looking for a qualitative first look on that map that will set some expectations for the prediction accuracy that we are targeting. In simple words, if our dataset 'looks' mixed, i.e. with many overlaps, we will not be disappointed if our neural network achieves an accuracy of 60-70%. Let's see!
+
+Reference-style: 
+![alt text][logo]
+
+[logo]: https://github.com/kbhyana/Defaulter-Analyzer/blob/master/Pictures/1.JPG?raw=true " "
+
+
+
+The visual reveals a rather mixed up dataset which means that we shall not expect to end up with an extremely accurate model. We shall also expect that our neural network will learn fairly fast due to the fact that the dataset looks balanced; there is a considerable amount of observed defaults in our dataset
+
 ## Header 2
 ### Header 3
 
