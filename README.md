@@ -30,7 +30,7 @@ t-SNE is a technique for dimensionality reduction that is particularly well suit
 
 ![alt text][logo]
 
-[logo]: https://github.com/kbhyana/Defaulter-Analyzer/blob/master/Pictures/4.JPG?raw=true " "
+![logo](https://github.com/kbhyana/Defaulter-Analyzer/blob/master/Pictures/4.JPG)
 
 
 
