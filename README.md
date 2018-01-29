@@ -34,7 +34,7 @@ t-SNE is a technique for dimensionality reduction that is particularly well suit
 
 
 The visual reveals a rather mixed up dataset which means that we shall not expect to end up with an extremely accurate model. We shall also expect that our neural network will learn fairly fast due to the fact that the dataset looks balanced; there is a considerable amount of observed defaults in our dataset
-
+<!--
 ## Header 2
 ### Header 3
 
@@ -58,3 +58,4 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+--!>
